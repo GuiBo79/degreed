@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" validUntil="2020-05-03T02:50:15Z" cacheDuration="PT604800S" entityID="https://degreed.com/DegreedSP">
+  <md:SPSSODescriptor AuthnRequestsSigned="false" WantAssertionsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDATCCAemgAwIBAgIQcYo2OWiEV41Khyh/rJSUlTANBgkqhkiG9w0BAQsFADAWMRQwEgYDVQQDEwtkZWdyZWVkLmNvbTAeFw0xNDA5MjIxNjU2MzZaFw0zOTEyMzEyMzU5NTlaMBYxFDASBgNVBAMTC2RlZ3JlZWQuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtCgpj0a/4Yk2jZXqFsxtotEqJAd+1jTylhLUxoVh7Ll7/+sdLGBrjqCMUTOKVL5pZvFmuRgZMl2tlkpubC8etXNEQZmJHf7d7uOinGHr6bGc6dIu07OBzWFDVbvd51R/tbOiRv4xuHvg7TXofNgjW5KxuIctADPS0cHVZW0EXzMMUIW6zAOaLKKUMANEtctxHlxgZMzUFkRBwQWeSwZVVK69UP6Vw/Zg8TsFd5oP3ZABwgZFzH0W1yBG1l3/dOfQhBoPa0VIvwXSfg42sQ8TSLk7mka+qQc8ox9ARN39fPUD6UfKNPJRfCdiw8r9cmKo+SpJ85YJln32T5cbODVlfwIDAQABo0swSTBHBgNVHQEEQDA+gBCbTD42lCBaPYQ1ZteBfqdeoRgwFjEUMBIGA1UEAxMLZGVncmVlZC5jb22CEHGKNjlohFeNSocof6yUlJUwDQYJKoZIhvcNAQELBQADggEBAJjD4dwN9gvMuXcWgE8de4VynHvB0YVeJtzwd/CmqIKySJpQw7JBMyxgKWCDm5XSKQ7xL2KcOEoqznx++bc3TKO2vqP8bl9pzAKZBAt/yWLZtMRA65bk9ZOF2xMSYDXyXCawpPnJYA2ZxVHZOosmWa+lMA5gIXg7thDYloGftY5oA29C4LXXz6o7QNkHq1YsWGrcgvcNclv2iLk/TtprU66ovE33w0mN7L6/CvdI029bAc1qecXxjwceRpjrq1J9QlY70P4Q4KfhSLeVP+2AzFmwWn+ut3ENe7tZySJB8MwA+s5EDCEUO67BWY8cAk231brQO7CgrVYyELam/T+gzhk=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDATCCAemgAwIBAgIQcYo2OWiEV41Khyh/rJSUlTANBgkqhkiG9w0BAQsFADAWMRQwEgYDVQQDEwtkZWdyZWVkLmNvbTAeFw0xNDA5MjIxNjU2MzZaFw0zOTEyMzEyMzU5NTlaMBYxFDASBgNVBAMTC2RlZ3JlZWQuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtCgpj0a/4Yk2jZXqFsxtotEqJAd+1jTylhLUxoVh7Ll7/+sdLGBrjqCMUTOKVL5pZvFmuRgZMl2tlkpubC8etXNEQZmJHf7d7uOinGHr6bGc6dIu07OBzWFDVbvd51R/tbOiRv4xuHvg7TXofNgjW5KxuIctADPS0cHVZW0EXzMMUIW6zAOaLKKUMANEtctxHlxgZMzUFkRBwQWeSwZVVK69UP6Vw/Zg8TsFd5oP3ZABwgZFzH0W1yBG1l3/dOfQhBoPa0VIvwXSfg42sQ8TSLk7mka+qQc8ox9ARN39fPUD6UfKNPJRfCdiw8r9cmKo+SpJ85YJln32T5cbODVlfwIDAQABo0swSTBHBgNVHQEEQDA+gBCbTD42lCBaPYQ1ZteBfqdeoRgwFjEUMBIGA1UEAxMLZGVncmVlZC5jb22CEHGKNjlohFeNSocof6yUlJUwDQYJKoZIhvcNAQELBQADggEBAJjD4dwN9gvMuXcWgE8de4VynHvB0YVeJtzwd/CmqIKySJpQw7JBMyxgKWCDm5XSKQ7xL2KcOEoqznx++bc3TKO2vqP8bl9pzAKZBAt/yWLZtMRA65bk9ZOF2xMSYDXyXCawpPnJYA2ZxVHZOosmWa+lMA5gIXg7thDYloGftY5oA29C4LXXz6o7QNkHq1YsWGrcgvcNclv2iLk/TtprU66ovE33w0mN7L6/CvdI029bAc1qecXxjwceRpjrq1J9QlY70P4Q4KfhSLeVP+2AzFmwWn+ut3ENe7tZySJB8MwA+s5EDCEUO67BWY8cAk231brQO7CgrVYyELam/T+gzhk=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://degreed.com/SAML/SLOService"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://degreed.com/SAML/AssertionConsumerService" index="1"/>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en-US">Degreed</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en-US">Degreed</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en-US">http://degreed.com</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="technical">
+    <md:GivenName>Guilherme</md:GivenName>
+    <md:EmailAddress>gui.bortolaso@gmail.com</md:EmailAddress>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="support">
+    <md:GivenName>Guilherme</md:GivenName>
+    <md:EmailAddress>gui.bortolaso@gmail.com</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
